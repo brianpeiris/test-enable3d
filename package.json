@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "esbuild main.js --bundle --outfile=bundle.js"
+  },
+  "dependencies": {
+    "enable3d": "^0.25.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.39"
+  }
+}
